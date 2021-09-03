@@ -24,7 +24,7 @@ body {
 
 .wrap {
   width: 100%;
-  max-width: 1181px;
+  max-width: 1185px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -107,4 +107,49 @@ body {
   padding: 5px 15px;
   color: #c2c2c2;
   text-transform: uppercase;
+}
+
+.button {
+  background-color: #5528ff;
+  color: #ffffff;
+  padding: 16px 58px;
+  font-size: 24px;
+  font-weight: 300;
+  border-radius: 10px;
+}
+
+.title-main {
+  color: #202020;
+  font-size: 55px;
+  font-weight: 700;
+  margin-top: 117px;
+}
+
+.text-main {
+  max-width: 741px;
+  font-size: 32px;
+  line-height: 1.5;
+  color: #4f4f4f;
+  padding-top: 35px;
+  padding-bottom: 70px;
+}
+
+.servis {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50% 50%;
+  -ms-grid-columns: 50% 50%;
+      grid-template: 50% 50% / 50% 50%;
+}
+
+.servis h3 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.servis p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b2b2b2;
 }
