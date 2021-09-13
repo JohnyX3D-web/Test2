@@ -177,3 +177,21 @@ body {
 		color: #b2b2b2;
 	}
 }
+.social {
+	padding-left: 0;
+	display: flex;
+
+	li {
+		margin-left: 15px;
+		a {
+			text-decoration: none;
+			color: #b2b2b2;
+			font-size: 24px;
+		}
+	}
+}
+.box-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

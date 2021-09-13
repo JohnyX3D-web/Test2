@@ -238,3 +238,32 @@ body {
   font-size: 14px;
   color: #b2b2b2;
 }
+
+.social {
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social li {
+  margin-left: 15px;
+}
+
+.social li a {
+  text-decoration: none;
+  color: #b2b2b2;
+  font-size: 24px;
+}
+
+.box-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
